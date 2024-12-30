@@ -1,0 +1,8 @@
+workspace,projectName,isSample,expectedSuccess
+"",My Name,true,true
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, sapien eu tempor commodo, erat nulla pellentesque orci, at convallis justo nulla in nulla. Donec faucibus, metus nec aliquam venenatis, magna lacus eleifend dolor, sit amet tristique justo neque sit amet augue.	",My Name,true,false
+Workspace A,My Name,true,true
+Workspace A,"",true,false
+Workspace A	,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, sapien eu tempor commodo, erat nulla pellentesque orci, at convallis justo nulla in nulla. Donec faucibus, metus nec aliquam venenatis, magna lacus eleifend dolor, sit amet tristique justo neque sit amet augue.",true,false
+Workspace A,My Name,true,true
+Workspace A,My Name,false,true

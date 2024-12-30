@@ -1,0 +1,9 @@
+email,password,expectedHaveError
+"",123456,true
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, sapien eu tempor commodo, erat nulla pellentesque orci, at convallis justo nulla in nulla. Donec faucibus, metus nec aliquam venenatis, magna lacus eleifend dolor, sit amet tristique justo neque sit amet augue",true,true
+admin1,123456,true
+a1@mail.com,123456,true
+admin1@mail.com,123456,false
+admin1@mail.com,"",true
+admin1@mail.com,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, sapien eu tempor commodo, erat nulla pellentesque orci, at convallis justo nulla in nulla. Donec faucibus, metus nec aliquam venenatis, magna lacus eleifend dolor, sit amet tristique justo neque sit amet augue.",true
+admin1@mail.com,123,true
