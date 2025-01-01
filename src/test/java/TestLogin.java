@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -14,13 +16,15 @@ import java.time.Duration;
 public class TestLogin {
     WebDriver driver;
     String URL = "http://localhost:4000";
-    //    String firefoxDriverPath = "/home/nhan/Desktop/KCPM/final-project/geckodriver-v0.35.0-linux64/geckodriver";
+    String firefoxDriverPath = "/Users/admin/Documents/hcmus/test/automation_testing/firefoxdriver/geckodriver";
     String chromeDriverPath = "/Users/admin/Documents/hcmus/test/automation_testing/chromedriver-mac-arm64/chromedriver";
 
     public void setup() {
         System.setProperty("chrome.driver", chromeDriverPath);
-//        System.setProperty("firefox.driver", firefoxDriverPath);
-        driver = new ChromeDriver();
+        System.setProperty("firefox.driver", firefoxDriverPath);
+      driver = new ChromeDriver();
+//        driver = new FirefoxDriver();
+        //driver = new SafariDriver();
     }
 
     public void tearDown() {

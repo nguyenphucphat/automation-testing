@@ -2,11 +2,11 @@ projectName,sortField,sortOrder,expectedSuccess
 "",created-date,asc,true
 "name=abc' OR 1=1--",created-date,asc,false
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, sapien eu tempor commodo, erat nulla pellentesque orci, at convallis justo nulla in nulla. Donec faucibus, metus nec aliquam venenatis, magna lacus eleifend dolor, sit amet tristique justo neque sit amet augue.",created-date,asc,false
-Project Alpha,created-date,asc,true
-Project Alpha,"",asc,true
-Project Alpha,title,asc,true
-Project Alpha,case-code,asc,true
-Project Alpha,TEST,asc,true
-Project Alpha,created-date,asc,true
-Project Alpha,created-date,desc,true
-Project Alpha,created-date,TEST,true
+Project,created-date,asc,true
+Project,"",asc,true
+Project,title,asc,true
+Project,case-code,asc,true
+Project,TEST,asc,true
+Project,created-date,asc,true
+Project,created-date,desc,true
+Project,created-date,TEST,true
